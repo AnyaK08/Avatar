@@ -1,5 +1,9 @@
+
+
 body{
-    background-color: grey;
+   background-color: grey;
+      list-style: none;
+     text-decoration: none;
 }
 /* Add background instead of overlays before adding them  */
   h1, p, h2, h3, ul {
@@ -13,9 +17,188 @@ body{
   }
  ul{
     list-style: none;
+     text-decoration: none;
  }
  /* body */
  .container{
     width: 1440px;
     margin: 0 auto;
  }
+ /* Header */
+ .header-nav-list{
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+ }
+ .header-nav-list a{
+        text-decoration: none;
+        color: #FFFFFF;
+        
+    }
+    .header-nav-list-main a:hover{
+        color: #2196F3;
+    
+    }
+ 
+ .nav-button{
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+color: #26C6EA;
+width: 141px;
+height: 41.69px;
+left: 1095px;
+top: 54px;
+
+background: #0B0E66;
+border: 2px solid #26C7EA;
+border-radius: 35px 0px;
+ }
+ .header-nav-paragraph{
+    font-family: 'Hammersmith One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+
+ }
+ /* Main */
+    /* Hero */
+    .hero-paragraph{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+    }
+.hero-button{
+    
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #26C7EA;
+
+width: 260px;
+height: 80px;
+left: 204px;
+top: 631px;
+
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+}
+/* Main content */
+
+.main-header-quote{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+
+color: #0A3853;
+
+}
+.main-paragraph{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+
+color: #000000;
+
+
+}
+.main-image{
+    width: 400px;
+height: 120px;
+}
+.main-button{
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #26C7EA;
+
+    width: 260px;
+height: 80px;
+left: 590px;
+top: 1570px;
+
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+}
+.main-header-language{
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+
+color: #141414;
+
+}
+.main-paragraph-language{
+    font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+
+color: #141414;
+
+}
+.main-paragraph-translation{
+    font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+
+color: #000000;
+
+}
+/* Footer */
+.footer-paragraph, .footer-email{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #FFFFFF;
+
+}
+.footer-paragraph-rights{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+
+color: #FFFFFF;
+
+}
