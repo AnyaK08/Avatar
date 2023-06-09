@@ -1,11 +1,11 @@
 
 
 body{
-   background-color: grey;
+    
       list-style: none;
      text-decoration: none;
 }
-/* Add background instead of overlays before adding them  */
+
   h1, p, h2, h3, ul {
     margin: 0;
     padding: 0;
@@ -25,13 +25,50 @@ body{
     margin: 0 auto;
  }
  /* Header */
+ .header-container{
+    width: 1440px;
+    border-bottom: 3px solid #FFFFFF;
+    height: 150px;
+ }
+ .header-navigation{
+   
+    background-color: rgba(43, 74, 97, 0.87);;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),url('../images/overlayy1.png'),url('../images/overlay1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .logo-link{
+    width: 186px;
+    height: 72px;
+    padding-left: 204px;
+    padding-top: 33px;
+    padding-bottom: 39px;
+    padding-right: 168px;
+ }
+.header-main-navigation{
+    display: flex;
+   
+    justify-content: space-between;
+}
+ 
  .header-nav-list{
    font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 24px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    padding-top: 57px;
+    
+    
  }
  .header-nav-list a{
         text-decoration: none;
@@ -39,26 +76,34 @@ color: #FFFFFF;
         
     }
     .header-nav-list-main a:hover{
-        color: #2196F3;
+        color:  #94CFFF;
+
     
     }
  
  .nav-button{
-font-family: 'HeadlandOne';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-/* identical to box height */
-color: #26C6EA;
-width: 141px;
-height: 41.69px;
-left: 1095px;
-top: 54px;
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #26C6EA;
+    width: 141px;
+    height: 41.69px;
+    background: #0B0E66;
+    border: 2px solid #26C7EA;
+    border-radius: 35px 0px;
+    display: block;
+    margin: 48px 0px 0px 212px
+   
+   
 
-background: #0B0E66;
-border: 2px solid #26C7EA;
-border-radius: 35px 0px;
+ }
+ .header-language-list{
+    display: flex;
+    width: 107px;
+    justify-content: space-between;
+    padding: 59px 48px 71px 49px;
  }
  .header-nav-paragraph{
     font-family: 'Hammersmith One';
@@ -67,68 +112,108 @@ font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 color: #FFFFFF;
+display: flex;
 
  }
  /* Main */
     /* Hero */
+
+.hero-section{
+   
+    background-color: rgba(43, 74, 97, 0.87);;
+    background-image:url('../images/overlay2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 740px;
+   
+  
+ }
+ .hero-container{
+    width: 1032px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .hero-left{
+    margin-top: 180px;
+ }
+ .hero-list{
+    margin-top: 300px;
+   
+ }
+ .hero-list-item{
+    padding-bottom: 24px;
+ }
     .hero-paragraph{
         font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
 
     }
 .hero-button{
-    
-font-family: 'HeadlandOne';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-text-align: center;
-
-color: #26C7EA;
-
-width: 260px;
-height: 80px;
-left: 204px;
-top: 631px;
-
-background: #0B0E66;
-border: 3px solid #26C7EA;
-border-radius: 45px 0px;
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #26C7EA;
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    margin-top: 42px;
+}
+.arrow{
+    margin-left: 40px;
 }
 /* Main content */
 
 .main-header-quote{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-
-color: #0A3853;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #0A3853;
+    margin-top: 75px;
 
 }
 .main-paragraph{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-
-
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin: 16px 0px 8px 0px;
 
 
 }
 .main-image{
     width: 400px;
-height: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 10px;
+}
+.main-button-container{
+    background-image: url('../images/overlay3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    padding: 330px 0px;
+    
+   
 }
 .main-button{
     font-family: 'HeadlandOne';
@@ -137,68 +222,138 @@ height: 120px;
     font-size: 24px;
     line-height: 30px;
     color: #26C7EA;
-
     width: 260px;
-height: 80px;
-left: 590px;
-top: 1570px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    margin: 0 auto;
+    
+    display: block;
 
-background: #0B0E66;
-border: 3px solid #26C7EA;
-border-radius: 45px 0px;
+    
 }
+.main-navi-language{
+    background-image: url('../images/overlay5.png');
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 58px 0px 57px 0px;
+}
+.main-language-container{
+    width: 1032px;
+    margin: 0 auto;
+ 
+
+   
+}
+.main-language-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  
+   
+    
+}
+.main-language-card{
+    background: rgba(255, 255, 255, 0.7);
+    width: 320px;
+    height: 240px;
+    padding: 36px 0px;
+}
+.main-language-card:not(:nth-child(n+4)){
+    margin-bottom: 24px;
+}
+
 .main-header-language{
     font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 40px;
-
-
-color: #141414;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #141414;
+    text-align: center;
+    margin-bottom: 45px;
 
 }
 .main-paragraph-language{
     font-family: 'HeadlandOne';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 24px;
-
-
-color: #141414;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #141414;
+    text-align: center;
+    padding-bottom: 40px;
 
 }
 .main-paragraph-translation{
     font-family: 'HeadlandOne';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 40px;
 
-
-color: #000000;
-
+}
+.main-language-image{
+    width: 152px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
 }
 /* Footer */
+
+.footer-nav{
+    background-color: rgba(43, 74, 97, 0.87);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),url('../images/overlayy1.png'),url('../images/overlay1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+.footer-container{
+  
+    display: flex;
+ 
+   
+  
+}
+.logo-link-footer{
+    padding: 77px 80px 73px 204px;
+    border: 2px solid #FFFFFF;
+}
+.footer-nav-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
 .footer-paragraph, .footer-email{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: justify;
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF;
+  
 
 }
-.footer-paragraph-rights{
+.footer-rights{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-top: 181px;
+  
+   
+    
 
 }
