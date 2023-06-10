@@ -94,7 +94,8 @@ body{
     border: 2px solid #26C7EA;
     border-radius: 35px 0px;
     display: block;
-    margin: 48px 0px 0px 212px
+    margin: 48px 0px 0px 212px;
+    
    
    
 
@@ -296,7 +297,7 @@ display: flex;
     line-height: 24px;
     color: #141414;
     text-align: center;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 .main-paragraph-translation{
@@ -307,7 +308,7 @@ display: flex;
     line-height: 24px;
     text-align: center;
     color: #000000;
-    padding-top: 40px;
+    margin-top: 40px;
 
 }
 .main-language-image{
@@ -337,20 +338,26 @@ display: flex;
     width: 183px;
     margin-right: 80px;
 }
+.footer-right{
+    display: flex;
+    padding-top: 45px;
+    flex-direction: column;
+}
 
 .footer-nav-list{
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 37px;
     width: 689px;
  
 }
-.footer-list-item-qa{
-    margin-bottom: 16px;
+
+.footer-list-item{
+    display: flex;
+    
+    align-items: center;
     
 }
-.footer-list-item{
-    margin-bottom: 37px;
-    
+.footer-list-item:nth-child(1){
+    margin-bottom: 16px;
 }
 .footer-paragraph{
     font-family: 'Inter';
@@ -358,7 +365,6 @@ display: flex;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-   
     color: #FFFFFF;
   
 
@@ -370,14 +376,21 @@ display: flex;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    
-  
-   
-    
+    text-align: center;
+}
+.footer-list-dashes-one{
+    color: #FFFFFF;
+    width: 269px;
+    height: 2px;
+    background-image: url('../images/vector8.svg');
+    margin: 0 20px 0;
+}
+.footer-list-dashes-two{
+    color: #FFFFFF;
+    width: 194px;
+    height: 2px;
+    background-image: url('../images/vector9.svg');
+    margin: 0 20px 0;
+}
 
-}
-.email{
-    display: inline-block;
-}
-   
 
